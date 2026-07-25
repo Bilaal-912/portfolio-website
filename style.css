@@ -36,3 +36,41 @@ body{
 @keyframes blink {
     50% { opacity: 0; }
 }
+.hidden {
+    display: none;
+}
+
+.section {
+    display: none;
+    margin-top: 30px;
+    line-height: 2.5;
+}
+
+.active-section {
+    display: block;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #00ff41;
+    text-shadow: 0 0 10px #00ff41;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    cursor: pointer;
+    font-size: 0.6rem;
+    opacity: 0.5;
+}
+
+.menu-item.active {
+    opacity: 1;
+    text-shadow: 0 0 10px #00ff41;
+}
